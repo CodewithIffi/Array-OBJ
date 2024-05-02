@@ -1,11 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.main-card {
+    border: 1px solid #000;
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: honeydew;
+    color: gray;
 }
 
-html,
-body {
-    height: 100%;
-    width: 100%;
+.main-body {
+    background-color: #000;
+}
+.text-center{
+    color: honeydew;
+    margin: 10px;
 }
